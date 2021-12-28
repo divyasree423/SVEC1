@@ -19,14 +19,34 @@
          h3{
              display: inline-block;
              background-color: red;
-             /* margin-top: 100px; */
+             height: 300px;
+             width: 300px;
+             padding: 300px;
+              /* margin-top: 100px;  */
+         }
+         .list{
+             display: flex;
+             /* flex-wrap: wrap; */
+             /* flex-direction: row-reverse; */
+             /* flex-direction: column-reverse; */
+             /* flex-direction: column; */
+             flex-flow: wrap row-reverse;
+             justify-content: space-around;
+             /* justify-content: space-between; */
+             /* justify-content: space-evenly; */
+         }
+         h1{
+             padding:20px;
+             border: 3px solid lightblue;
+             margin: 10px;
+             /* width: 20rem; */
          }
 
           
     </style>
 </head>
 <body>
-    <p>This is a paragraph</p>
+    <!-- <p>This is a paragraph</p>
     <p>This is paragraph</p>
      <br>
     <span>Text1</span>
@@ -34,6 +54,15 @@
     <div style="height: 200vh;">
         <h3>welcome</h3>
         <h3>welcome</h3>
+    </div> -->
+    <div class="list">
+        <h1>Heading1</h1>
+        <h1>Heading2</h1>
+        <h1>Heading3</h1>
+        <h1>Heading4</h1>
+        <h1>Heading5</h1>
+        <h1>Heading6</h1>
+        <h1>Heading7</h1>
     </div>
     
 </body>

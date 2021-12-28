@@ -128,7 +128,7 @@ selector{
     - padding:10px 30px 40px 0px(top,right,bottom,left)
 + width
    -1rem:16px
-
+### Responsive Web Design-change layout with respect to 
 
 ### Flex-box
 + display
@@ -136,6 +136,29 @@ selector{
    - inline
    - block
    - inline-block
++ position
+    - static 
+    - relative
+    - absolute
+    - fixed
+    - sticky
++ aligin content
++ align-items
++ align self
+
+
+
+
+
+
+
+### Responsive Web Design
+### Flex-box
+- display
+   - flex
+   - justify-content
+   - flex-direction
+   - flex-flow
 
 
 
