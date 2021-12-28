@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: CSS Selectors::</title>
+    <style>
+        *{
+            /* border:10px solid lightblue */
+            font-size: 30px
+        }
+         div p{
+            background-color: red;
+            color: #fff;
+        }
+        div > p{
+            color: seashell;
+            background-color: green;
+        }  
+
+             section+p{
+            background-color: black;
+            color: rgb(207, 24, 24);
+          }  
+           div+h5{
+               background-color: seagreen;
+              font-size: 50px;
+          } 
+            div~p{
+            background-color: tomato;
+        }    
+        p:first-letter{
+            font-size: 100px;
+        }
+        p::first-line{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <div>
+            <p>paragraph3</p>
+        </div>
+        <section>
+            <p>paragraph4</p>
+            <p>paragraph</p>
+        </section>
+        <p>paragraph5</p>
+        <p>paragraph6</p>
+    </div>
+    <h5 style="font-size: 100px;color: pink;">heading5</h5>
+    
+    <p>hdhduyhfudsugshfjgdjhgjhdsyfgysdfghfdg
+        dhfjkhfhdfuiyhfhjhfsdjkhfuhdsn jdsyhuihnjdvdhf
+        shfudshhnchgughduyh
+    </p>
+    
+        
+   
+    
+</body>
+</html>
