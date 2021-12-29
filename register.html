@@ -5,10 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>::register</title>
+    <style>
+        .class{
+            background-image: url(./images/1586519274721.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 2px solid black;
+            margin: 50px 100px;
+            padding: 10px;
+            width: 60rem;
+            height: 30rem;
+        }
+        .child{
+            padding-left: 300px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Register</h1>
-    <span>regisration completed</span>
-    
+   <div class="class">
+    <form action="./home.html" method="get">
+        <h1 style="text-align: center;">REGISTRATION DETAILS</h1>
+        <div class="child">
+            <label for="name">enter name  </label>
+            <input type=" text " name="name" id="name" placeholder="enter name" required>
+            <br>
+            <label for="email">enter email  </label>
+            <input type="email" name="email" id="email" placeholder="enter email" >
+            <br>
+            <label for="password">enter password</label>
+            <input type="password" name="password" id="password" placeholder="enter password" >
+            <br>
+            <br>
+        </div>
+        <div style="text-align: center;">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+   </div>
 </body>
 </html>

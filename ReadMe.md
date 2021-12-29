@@ -241,6 +241,16 @@ Task 3:
     - alerts (alert alert-primary)
 
 
++ Grid System
+    - col-sm-12
+    - sm(small devices)
+    - md(medium devices)
+    - lg(large devices)
+    - xl(Extra large devices)
+
+
++ Modal
+
 ### Reference links
 - [Flaticon](https://www.flaticon.com/)
 - [images](https://freesvg.org/)
