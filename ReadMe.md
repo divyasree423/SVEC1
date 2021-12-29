@@ -151,7 +151,7 @@ selector{
 
 
 
-
+### Animations
 ### Responsive Web Design
 ### Flex-box
 - display
@@ -159,7 +159,86 @@ selector{
    - justify-content
    - flex-direction
    - flex-flow
+### Media Queries
 
+- Extra small devices(mobiles)
+    - max-width:600px
+- Small devices(Large phones,small tabs)
+    - min-width:600px
+    - max-width:768px
+- Medium devices(small laptops)
+    - min-width:768px
+    - max-width:992px
+- Large devices(desktops,large laptops)
+    - min-width:992px
+    - max-width:1200px
+- Extra large devices(LED)
+    - min-width:1200px
+
+
+
+``` 
+@media only screen (min-width:320px(breakpoint value)) and (max-width:500px){
+    css code
+}
+```
+### Bootstrap 4.6
+- It is a CSS framework
+
+Task 3:
+====
+- navbar with response
+
+
+
+- module(collection of functions,object and classes)
+- Package(collection of modules)
+- Library(collection of packages)
+- framework(collection of Libraries)
++ module-->Package ---> Library --->Framework
+ 
+
+ + Type of modes
+   - offline
+   - online
+     - CDN links
+
+
++ background-color  - bg
++ text-white
+
+
++ margin for bootstrap(m-* (0-5))
+    - 0 -->0rem
+    - 1 -->0.25rem(4px)
+    - 2 -->0.5rem(8px)
+    - 3 -->1rem(16px)
+    - 4 -->1.5rem(24px)
+    - 5 -->3rem(48px)
+    - margin-left --ml-5
+    - margin in all directions --m
+    - margin-top -- mt
+    - margin-bottom --mb
+    - margin-right --mr
+
+
++ padding(padding-left-->pl-5)
+
++ colors
+   - primary
+   - secondary
+   - info
+   - success
+   - warning
+   - danger
+   - light
+   - dark
+   - white
++ We can use color classes for 
+    - Buttons (btn btn-primary)
+    - Text (text-white)
+    - background (bg-secondary)
+    - alerts (alert alert-primary)
 
 
 ### Reference links

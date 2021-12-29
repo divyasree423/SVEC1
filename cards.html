@@ -36,16 +36,25 @@
             color: lightgreen;
 
         }
-        .list{
+        /* .list{
             display: flex;
-        }
+        } */
         .main{
             display:flex;
             flex-wrap: wrap;
+            flex-wrap: wrap-reverse;
             justify-content: space-around;
             
         }
-
+        @media only screen and (min-width:768px)
+        {
+            a:hover{
+                color: white;
+                background-color:green;
+                border: 1px solid lightgray;
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -53,7 +62,7 @@
     <div class="card">
         <img src="./images/man.png" alt="Profile_pic"  >
 
-        <h1>DIVYA</h1>
+        <h1>Swetha</h1>
         <h3>Junior Software Developer</h3>
         <a href="tel:8179430504">8179430504</a>
         <br>
