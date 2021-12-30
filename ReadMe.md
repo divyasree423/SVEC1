@@ -250,7 +250,85 @@ Task 3:
 
 
 + Modal
++ table
 
+### Java Script-to apply dynamic behaviour to web page
+
++ In 1995 `Brenden Eich` introduced JavaScript (ES-262)
++ Javascript is loosly tuppled(no need to mention data type) and dynamic language
++ JavaScript is text-based programming language and it provides OOPS concept and we can run in 
+  client-side and server-side(Node.side) for dynamic web applications
+- ECMA-Script (European Computer Manufacture Association)(ES-6 version we use mostly)
+   + features of ES-6:
+   - let &const 
+   - map()(default function-it takes less than 1min to get output)
+   - arrow function
+   - classes
+   - spread operator
+   - rest parameter
+   
++ Datatypes
+  - Number
+  - BigInt(2^53-1)
+  - String
+  - Boolean
+  - Undefine
+  - Null
+  - Object
+  - Array
+
+
+
++ Variables- we use `var` to create variable
+  - var,let&const
+  - Scope
+    - function level -->var
+    - Block level -->let,const
+  - Redefine -->var,let(better to take let)-cannot redefine using const
+  - Redeclare -->var(cannot redeclare using let&const)
+
++ `typeof()`
++ Object
+```
+  {
+      name:"Divya"
+  }
+```
+
++ Arrar
+
+### Alerts
+
++ To generate notifications
+  - alert
+  - prompt(to take input from the user)
+  - confirm
+
++ console statements
+  - `console.log()`
+  - `console.info()`
+  - `console.warn()`
+  - `console.error()`
+
+
++ spread operator
+
+    - To change array elements from one array to another(swapping)
+```
+ 
+ ...variableName
+```
+
++ Rest parameter
+  - To handle function parameters
+  ```
+    ...parameter
+  ```
+
+
+
++ Destructuring of Array & objects(to handle data)
+ 
 ### Reference links
 - [Flaticon](https://www.flaticon.com/)
 - [images](https://freesvg.org/)
