@@ -1,13 +1,13 @@
-"use strict"
-var name="vamsi";
-var age=20;
+// "use strict"
+// var name="vamsi";
+// var age=20;
 
-if(age>18){
-    let name="VAmsi A";
-    console.log(name);
+// if(age>18){
+//     let name="VAmsi A";
+//     console.log(name);
 
-}
-console.log(name);
+// }
+// console.log(name);
 
 
 
@@ -51,10 +51,10 @@ console.log(name);
 
 // console statements
 
-console.log("To display information");
-console.info("For information");
-console.warn("Check the code once");
-console.error("you got some error")
+// console.log("To display information");
+// console.info("For information");
+// console.warn("Check the code once");
+// console.error("you got some error")
 
 
 //spread operator
@@ -104,3 +104,76 @@ console.error("you got some error")
 // console.log(name4);
 // console.log(designation);
 // console.log(remainList);
+
+
+
+//Function
+ 
+// let demo=function demo(x,y){
+//     return x+y
+// }
+// console.log(demo(3,4))
+
+// (function(x=6,y=4){
+//     return console.log(x+y)
+// })()
+
+//Arrow function
+// let demo=(x,y)=> {
+//     return x*y
+//   }
+//   console.log(demo(3,4))
+
+//Settime
+
+
+// setTimeout(function(){
+//     console.log("welcome")
+// },3000)
+
+
+let employees=["Divya","Yashwanth","Akshitha","Yatheesh"]
+
+// for(let i=0;i<employees.length;i++){
+//     console.log(employees[i])
+// }
+
+//forin
+// for(let i in employees){
+//     console.log(i)
+// }
+
+//for-of
+// for(i of employees){
+//     console.log(i)
+// }
+
+//forEach()
+// let result=employees.forEach(function(element){
+//     return element
+// })
+// console.log(result)
+
+employees.forEach(function(element,index){
+       console.log(element+" ok")  
+    })
+    
+
+//map
+// let result=employees.map(function(element){
+//       return element
+//      })
+//      console.log(result)
+
+
+// let result=employees.map(function(element,index){
+//     return element+"k"+index
+//  })
+//  console.log(employees)
+//  console.log(result)
+
+// let result=employees.map((element,index)=>{
+//         return element+"k"+index
+//      })
+//      console.log(employees)
+//      console.log(result)

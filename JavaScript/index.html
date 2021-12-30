@@ -10,6 +10,15 @@
     </script>
 </head>
 <body>
+    <div class="main">
+        <div id="child">
+           <h2 id="demo">Heading2
+               <span>text</span>
+               <a href="">link</a>
+           </h2>
+        </div>
+
+    </div>
     <script>
         // console.log("welcome")
 
@@ -26,13 +35,24 @@
     //    console.log(demo());
 
 
-    if (true) {
-        const name2="Dhanush";
-        // console.log(name2);
+    // if (true) {
+    //     const name2="Dhanush";
+    //     console.log(name2);
         
-    }
+    // }
     //console.log(name);
-
+        
+  var main=document.querySelector(".main");
+  var child=document.querySelector("#child");  
+    
+    
+    var heading=document.createElement('h1');
+        heading.textContent="welcome";
+        child.appendChild(heading);
+        main.appendChild(child);
+        var content=document.getElementById("demo").innerHTML;
+        console.log(content)
+        
     </script>
     
 </body>
