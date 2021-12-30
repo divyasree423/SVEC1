@@ -328,7 +328,73 @@ Task 3:
 
 
 + Destructuring of Array & objects(to handle data)
- 
+
+
+
++ Function
+ - function with function name
+ ```
+  function demo(x,y){
+    return(x+y)
+  }
+  demo()
+  ```
+
+  - Anonymous function
+  ```
+  let demo=(x,y)=> {
+    return x*y
+  }
+  demo(3,4)
+  ```
++ for-in
+    - to get index values of an array
++ for-of
+    - To get elements in an array
++ forEach() --> (ES-5)
+  - it wont assign the value but it prints value
++ map() --> (ES-6)
+
+
+### DOM
+  - Document Object Modeling-load every node of HTML
+  - document
+  - histoy
+  - window-to apply alerts
+  - navigator-to store data in offline i.e in browser
++ DOM methods
+ - `getElementById()`
+ - `getElementByclassName()`
+ - `querySelector()`
+ - `createElement()`
+ - `innerText`
+ - `textContent`
+ - `append`
+ - `appendChild`
+ - `innerHTML`
+ - `setAttribute()`
+ - `classList`
+ - `style`
+ - `src`
+
+
+### JSON
++ JSON(Java Script Object Notation)
+  - To exchange information between application(client) and server
+
+```
+{
+  "name":"Divya",
+  "salary":"12LPA",
+  "Designation":"Junior Software Developer",
+  "mobile":8179430548
+
+}
+```
+
++ Ajax call or Promises(fetch API) or axois
+
+
 ### Reference links
 - [Flaticon](https://www.flaticon.com/)
 - [images](https://freesvg.org/)
