@@ -438,6 +438,58 @@ export default ClassComponent;
 + Unidirectional data flow(can send data from one component to another component)
 + Single Page Applications(index.html)
 
+
+
++ Props
+    - To pass data from one component to another component we will use props
+    - props are immutable(child component we can't change because all data will be stored in parent)
+    + UnionBank(Functional component)
+      - AndhraBank(Functional component)
+      - CorporationBank(Class)
+
+
++ States
+
+- In react to maintain information we will use states
+- We can maintain states in class component only(Before react16.8 version)
+- We can maintain states in functional components also using Hooks
+- To take states in react,Try to create constructor above render method and  inside of claa component
+- use `rconst` snippet
+``` 
+constructor(){
+  super();
+  this.state={
+
+  }
+}
+```
+- To update the state information in class component use `setState()`method
+
++ To update information in class component we have to follow component lifecycle
+  - `componentWillReceiveProps()`
+  - `componentWillMount()`
+  - `componentDidMount()`
+  - `shouldComponentUpdate()`--to update
+  - `componentWillUpdate()`-before update
+  - `componentDidUpdate()`-after update
+  - `componentWillUnmount()`-action to perform before we close
+  
+### Hooks
+
++ From react 16.8 version Hooks(default methods) are introduced
+
+- Parent-child1 --> child2 -->child3
+- `useState()`-how to maintain data
+- `useEffect()`
+- `useMemo()`
+- `useRef()`
+- `useContext()`
+
+
+
+
+
+
 + Project Environment setup
   - [Download VisualStudioCode]('https://code.visualstudio.com/download')
   - [Download NodeJs]('https://nodejs.org/en/download/')
