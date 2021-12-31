@@ -395,8 +395,91 @@ Task 3:
 + Ajax call or Promises(fetch API) or axois
 
 
-### Reference links
+### ReactJS
+
+
+
+### ReactJS Features
++ It is a Library
++ It follows component based Architecture
+  - Functional component
+      
+function Functional(){
+    return(
+      <h1>Functional component</h1>  
+    );
+}
+
+export default Functional;
+
+
+
+  - Class component
+
+    import React ,{Component} from "react";
+
+
+class ClassComponent extends Component{
+    render(){
+        return(
+            <h1>Class Component </h1>
+        );
+    }
+}
+
+export default ClassComponent;
+
+
+
+  - Pure component
+  - Higher Order Component
++ It provides Virtual DOM
++ It provides JSX(JavaScript and XML)
++ Unidirectional data flow(can send data from one component to another component)
++ Single Page Applications(index.html)
+
++ Project Environment setup
+  - [Download VisualStudioCode]('https://code.visualstudio.com/download')
+  - [Download NodeJs]('https://nodejs.org/en/download/')
+  - install NodeJS and check versions of `node` and `npm`
+    - `node -v`
+    - `npm -v`
+  - `webpack` and `babel`
+  - `create-react-app`
+    - `npm(node package manager) install create-react-app`-using single command
+      - `create-react-app projectname`
+  - `npx create-react-app appname`(node package runner)
+
++ Index.html
++ Index.js
++ App.js
+    + IndexPage
+      - nav.js-nav component
+      - body.js
+      - footer.js
+      + Home.js
+        - nav
+        - body
+        - footer
+
++ Login.js
++ Register
++ About
++ Contact
+
+
+
+
+
+
+
+
+
+
+
+
+### Refernce Links
 - [Flaticon](https://www.flaticon.com/)
-- [images](https://freesvg.org/)
+- 
 - [color code](https://htmlcolorcodes.com/)
 - [webaim](https://webaim.org/)-to check color contrast
