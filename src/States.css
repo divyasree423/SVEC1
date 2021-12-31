@@ -1,0 +1,11 @@
+.demo{
+    border: 2px solid black;
+    margin: 10px 30px;
+    padding-left: 50px;
+    justify-content: space-between;
+    
+}
+button{
+    margin-left: 30px ;
+    background-color: lightpink;
+}
